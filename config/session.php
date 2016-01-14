@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'driver' => env('SESSION_DRIVER', 'file'),
+    'driver' => env('SESSION_DRIVER', 'redis'),
 
     /*
     |--------------------------------------------------------------------------
@@ -69,8 +69,8 @@ return [
     | correspond to a connection in your database configuration options.
     |
     */
-
-    'connection' => null,
+    
+    'connection' => 'redis://h:p4dtupmo7e7lj7a4qqklj66kfq4@ec2-107-21-254-141.compute-1.amazonaws.com:15489',
 
     /*
     |--------------------------------------------------------------------------
