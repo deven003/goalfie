@@ -10,7 +10,8 @@
         "shpasser/gae-support-l5": "~1.0",
         "firebase/php-jwt": "~3.0.0",
         "guzzlehttp/guzzle": "~6.1.1",
-        "guzzlehttp/oauth-subscriber": "dev-master"
+        "guzzlehttp/oauth-subscriber": "dev-master",
+        "predis/predis": "^1.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
