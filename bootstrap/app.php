@@ -11,7 +11,7 @@
 |
 */
 
-$app = new Shpasser\GaeSupportL5\Foundation\Application(
+$app = new Illuminate\Foundation\Application(
     realpath(__DIR__.'/../')
 );
 
