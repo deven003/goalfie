@@ -6,7 +6,8 @@
     "type": "project",
     "require": {
         "php": ">=5.5.9",
-        "laravel/framework": "5.1.*",        
+        "laravel/framework": "5.1.*",
+        "shpasser/gae-support-l5": "~1.0",
         "firebase/php-jwt": "~3.0.0",
         "guzzlehttp/guzzle": "~6.1.1",
         "guzzlehttp/oauth-subscriber": "dev-master"
