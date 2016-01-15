@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'driver' => env('SESSION_DRIVER', 'redis'),
+    'driver' => env('SESSION_DRIVER', 'file'),
 
     /*
     |--------------------------------------------------------------------------
@@ -70,7 +70,7 @@ return [
     |
     */
     
-    'connection' => 'redis://h:p4dtupmo7e7lj7a4qqklj66kfq4@ec2-107-21-254-141.compute-1.amazonaws.com:15489',
+    'connection' => null,
 
     /*
     |--------------------------------------------------------------------------

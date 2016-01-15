@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9e5bfd9c146355d5d8471c22a96c244b",
-    "content-hash": "7dd690216a715ff627aa6bceb4c0b7fa",
+    "hash": "b967555a35a1ed55ac1ef131c8f63aef",
+    "content-hash": "eaaf6c7d132415564ea27c6fd80ec552",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1107,56 +1107,6 @@
             "time": "2016-01-06 13:31:20"
         },
         {
-            "name": "predis/predis",
-            "version": "v1.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nrk/predis.git",
-                "reference": "84060b9034d756b4d79641667d7f9efe1aeb8e04"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nrk/predis/zipball/84060b9034d756b4d79641667d7f9efe1aeb8e04",
-                "reference": "84060b9034d756b4d79641667d7f9efe1aeb8e04",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0"
-            },
-            "suggest": {
-                "ext-curl": "Allows access to Webdis when paired with phpiredis",
-                "ext-phpiredis": "Allows faster serialization and deserialization of the Redis protocol"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Predis\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Daniele Alessandri",
-                    "email": "suppakilla@gmail.com",
-                    "homepage": "http://clorophilla.net"
-                }
-            ],
-            "description": "Flexible and feature-complete PHP client library for Redis",
-            "homepage": "http://github.com/nrk/predis",
-            "keywords": [
-                "nosql",
-                "predis",
-                "redis"
-            ],
-            "time": "2015-07-30 18:34:15"
-        },
-        {
             "name": "psr/http-message",
             "version": "1.0",
             "source": {
@@ -1314,48 +1264,6 @@
                 "shell"
             ],
             "time": "2015-11-12 16:18:56"
-        },
-        {
-            "name": "shpasser/gae-support-l5",
-            "version": "1.4.11",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/shpasser/GaeSupportL5.git",
-                "reference": "ea4c425d7e30a942199d1d7d87c0560a38abe720"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/shpasser/GaeSupportL5/zipball/ea4c425d7e30a942199d1d7d87c0560a38abe720",
-                "reference": "ea4c425d7e30a942199d1d7d87c0560a38abe720",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/support": "~5.0",
-                "league/flysystem": "~1.0",
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "illuminate/console": "~5.0",
-                "phpunit/phpunit": "~4.4"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Shpasser\\": "src/Shpasser"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Ron Shpasser",
-                    "email": "shpasser@gmail.com"
-                }
-            ],
-            "description": "Google App Engine Support for Laravel 5.1 apps.",
-            "time": "2015-12-20 09:11:14"
         },
         {
             "name": "swiftmailer/swiftmailer",
